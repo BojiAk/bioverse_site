@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioverse | Formular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <nav class="nav">
+            <a class="brand" href="index.html"><span>🌿</span>BIOVERSE</a>
+
+            <div class="links">
+                <a href="index.html">Acasă</a>
+                <a href="despre.html">Despre</a>
+                <a href="produse.html">Produse</a>
+                <a href="proces.html">Proces</a>
+                <a href="contact.html">Contact</a>
+                <a href="formular.html">Formular</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <span class="badge">Formular</span>
+            <h1>Cere informații despre Bioverse</h1>
+            <p>
+                Formular demonstrativ pentru feedback, întrebări
+                sau interes față de produse.
+            </p>
+        </section>
+
+        <section class="grid two">
+            <article class="card">
+                <h2>Completează datele</h2>
+
+                <form data-demo>
+                    <input type="text" name="nume" placeholder="Nume și prenume" required>
+                    <input type="email" name="email" placeholder="Email" required>
+
+                    <select name="interes">
+                        <option>Snack-uri bio</option>
+                        <option>Cosmetice naturale</option>
+                        <option>Suplimente naturiste</option>
+                        <option>Colaborare / parteneriat</option>
+                    </select>
+
+                    <textarea name="mesaj" placeholder="Mesajul tău"></textarea>
+
+                    <button class="btn" type="submit">Trimite formularul</button>
+                    <p id="msg" class="notice" aria-live="polite"></p>
+                </form>
+            </article>
+
+            <article class="card">
+                <h2>Ce primești?</h2>
+
+                <ul class="list">
+                    <li>Informații despre produse și lansări.</li>
+                    <li>Detalii despre abonamente lunare.</li>
+                    <li>Răspuns pentru propuneri de colaborare.</li>
+                </ul>
+
+                <p class="notice">
+                    Acest formular este local, pentru proiect școlar;
+                    nu trimite date către un server real.
+                </p>
+            </article>
+        </section>
+
+        <section class="grid">
+            <article class="card">
+                <h3>Prezentare</h3>
+                <p>Poți consulta prezentarea inițială a proiectului direct din site.</p>
+                <a class="btn secondary" href="BIODIVERSE.pptx">Deschide prezentarea</a>
+            </article>
+
+            <article class="card">
+                <h3>Navigare</h3>
+                <p>Toate paginile sunt legate între ele prin meniul principal.</p>
+            </article>
+
+            <article class="card">
+                <h3>Conținut</h3>
+                <p>Fiecare pagină conține minimum două zone de conținut distincte.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Formular Bioverse • Proiect HTML, CSS și JavaScript
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
